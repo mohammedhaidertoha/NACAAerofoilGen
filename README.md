@@ -1,4 +1,4 @@
-# NACA Aerofoil Generator
+# Simulating Airflow Around a NACA 4-series
 This is a MATLAB script that analyzes the lift and velocity of an airfoil. The script is intended to take in user inputs, generate a velocity field vector and streamlines for the inputted airfoil, and then calculate the lift coefficient, C_L. The script also has a special case when the airfoil is the NACA 2412. In this case, the script reads XFOIL data and plots C_L vs AoA for a range of AoA values and N values.
 
 ### Table of Contents
