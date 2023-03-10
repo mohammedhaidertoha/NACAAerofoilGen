@@ -12,10 +12,10 @@ To run the script, open MATLAB and navigate to the directory where the script is
 The user is prompted for the following inputs:
 
 ```
-airfoilcode - A four-digit code that refers to the NACA airfoil, e.g., 2412
-U_infinity - The free-stream velocity in m/s, e.g., 15 m/s
-AoA - The angle of attack in degrees, e.g., 10°
-N - The number of panels to be used, e.g., 100
+airfoilcode: A four-digit code that refers to the NACA airfoil, e.g., 2412
+U_infinity: The free-stream velocity in m/s, e.g., 15 m/s
+AoA: The angle of attack in degrees, e.g., 10°
+N: The number of panels to be used, e.g., 100
 
 ```
 
@@ -23,9 +23,9 @@ N - The number of panels to be used, e.g., 100
 The script outputs the following:
 
 ```
-C_L - The airfoil's lift coefficient
-Plots with the velocity field vectors and streamlines
-C_L vs AoA plot for the special case when the airfoil is a NACA 2412
+1. C_L - The airfoil's lift coefficient
+2. Plots with the velocity field vectors and streamlines
+3. C_L vs AoA plot for the special case when the airfoil is a NACA 2412
 ```
 
 ### License
